@@ -1,7 +1,7 @@
 class Api::V1::IdeasController < ApplicationController
 
   def index
-    @ideas = Idea.all
+    @ideas = Idea.all.order(id: :asc)
     render json: @ideas
   end
 

@@ -1,11 +1,22 @@
 <h1>IdeaBox 2.0</h1>
-<div id="app">
-  <input type="text" name="idea[title]" id="create-idea-title">
-  <textarea name="idea[body]" id="create-idea-body"></textarea>
-  <button type="button" name="create-idea" id="create-idea-button">Create</button>
-
-  <div id="ideas-list">
+  <div id="app">
+    <p>
+      Jot down your Ideas, click on the title or body of an Idea to edit
+    </p>
+    Title:
+    <input type="text" name="idea[title]" id="create-idea-title" />
+    Idea:
+    <textarea name="idea[body]" id="create-idea-body"></textarea>
+    <button type="button" name="create-idea" id="create-idea-button">Create</button>
+    <br />
+    <p>
+      Search the Idea Factory
+    </p>
+    <p>
+    Search:
+    <input type="text" name="idea-search" id="idea-search-field" />
+  </p>
+    <div id="ideas-list">
+    </div>
   </div>
-</div>
-<script src="public/index.js" type="text/javascript"></script>
 </div>
